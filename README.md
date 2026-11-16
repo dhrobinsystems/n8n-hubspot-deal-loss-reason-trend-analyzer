@@ -58,6 +58,8 @@ Closed-lost data is among the most valuable and least used signals in a revenue 
 
 ## 2. Architecture
 
+![Workflow Overview](workflow-overview.png)
+
 ```mermaid
 flowchart LR
     A[Weekly Cron Trigger<br/>0 7 * * 1] --> C
